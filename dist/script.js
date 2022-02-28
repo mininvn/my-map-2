@@ -5,6 +5,6 @@ WA.onInit().then(() => {
   
   
   WA.chat.sendChatMessage('Hello world', 'Mr Robot');
-  WA.room.onEnterLayer("start").subscribe(() => {
+  WA.room.onEnterLayer("floor").subscribe(() => {
     WA.chat.sendChatMessage("Hello!", "Mr Robot");
   });
